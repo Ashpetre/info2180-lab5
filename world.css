@@ -1,0 +1,78 @@
+/* Add your own styles */   
+header{
+    background-color: #4a5567;
+    width: 100%;
+    align-items: center;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f6fafd;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    font: bold;
+    padding: 100px
+}
+img{
+    display: grid;
+    height: 250x;
+    width: 255px;
+    float: right;
+    padding: 15px;
+}
+.controls{
+    display: flex;
+}
+input{
+    display: block;
+    border: 1px solid #ddd;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 50%;
+
+}
+
+#cities{
+    display: inline-block;
+    padding: 9px 15px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin: 28px;
+    background: #4d99d8;
+
+}
+
+#lookup{
+    background: #47afab;
+	display: inline-block;
+    padding: 9px 15px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin: 28px;
+
+}
+
+caption{
+    background-color: #4a5567;
+    color: white;
+
+}
+
+.table{
+    text-align: center;
+    border-collapse: collapse;
+    margin: 45px 0;
+    width: 400px;
+}
+.table thead tr{
+    text-align: left;
+}
+.table th, .table td{
+    padding: 12px 15px;
+}
+.table tbody tr:nth-last-of-type(even){
+    background-color: white;
+}
