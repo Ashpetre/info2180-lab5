@@ -10,7 +10,7 @@ window.onload = function(){
             if (response.ok){
                 return response.text()
             }else{
-                return Promise.reject("There was an issue with the request.")
+                alert("their was an error")
             }
         })
         .then(data => {
@@ -25,7 +25,7 @@ window.onload = function(){
             if (response.ok){
                 return response.text()
             } else{
-                return Promise.reject("There was issue with the request.")
+                alert("there was an error")
             }
         })
         .then(data => {
